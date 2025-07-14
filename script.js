@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // --- Handle SIGNUP ---
+ 
   const signupForm = document.getElementById("signupForm");
   if (signupForm) {
     signupForm.addEventListener("submit", (e) => {
@@ -18,13 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
       alert("Signup successful!");
 
-      // Show login tab if using tabs
+  
       const loginTabBtn = document.getElementById("login-tab");
       if (loginTabBtn) new bootstrap.Tab(loginTabBtn).show();
     });
   }
 
-  // --- Handle LOGIN ---
+ 
   const loginForm = document.getElementById("loginForm");
   if (loginForm) {
     loginForm.addEventListener("submit", (e) => {
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // --- Profile Display on Any Page ---
+ 
   const profileIcon = document.getElementById("profileIcon");
   const profileBox = document.getElementById("profileBox");
 
